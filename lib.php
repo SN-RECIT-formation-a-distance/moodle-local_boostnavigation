@@ -53,7 +53,7 @@ function local_boostnavigation_extend_navigation(global_navigation $navigation) 
     if (isset($config->removemyhomenode) && $config->removemyhomenode == true) {
         // If yes, do it.
         // Hide myhome node (which is basically the $navigation global_navigation node).
-        $navigation->showinflatnavigation = false;
+        $navigation->add_class('boostnavigation_hide');
     }
 
     // Check if admin wanted us to remove the home node from Boost's nav drawer.

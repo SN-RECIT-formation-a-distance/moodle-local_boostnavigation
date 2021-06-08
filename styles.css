@@ -77,3 +77,11 @@
     font-size: 80%;
     font-weight: normal;
 }
+
+.list-group:nth-child(2) .list-group-item {
+    background-color: #f5f5f5;
+}
+
+.boostnavigation_hide {
+    display: none !important;
+}

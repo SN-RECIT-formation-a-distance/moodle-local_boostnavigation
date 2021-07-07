@@ -78,7 +78,7 @@
     font-weight: normal;
 }
 
-.list-group:nth-child(2) .list-group-item {
+.list-group:nth-child(2) .list-group-item:not(.active) {
     background-color: #f5f5f5;
 }
 
